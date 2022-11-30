@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="script.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Sci-School Website</title>
+<link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+<link rel="icon" type="image/x-icon" href="Sci-School2.png">
+<link rel="stylesheet" href="help.css">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<style>
+  </style>
+<body>
+  <div class="header" id="navbar"> 
+
+    <a href="index.html" class="logo">Sci-School</a> 
+    
+    <div class="header-right"> 
+      <a  href="index.html" class="h">خانه</a> 
+      <a  href="math.html" class="r">ریاضی</a>
+
+      <a  href="physic.html" class="p">فیزیک</a>
+
+      <a href="chem.html" class="c">شیمی</a>
+
+      <a href="bio.html" class="b">زیست شناسی</a>
+
+      <a class="active" href="help.html" id="m">مشاوره</a>
+
+    <button id="toggle" class="button"><i class="fa fa-moon-o"></i></button>
+    
+    
+    
+    </div> 
+    
+    </div> 
+  <script>
+    window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky")
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+  </script>
+<div class="hero-image">
+  <div class="hero-text">
+  </div>
+</div>
+<h2>مشاوره</h2>
+<hr>
+<h2>برنامه ریزی</h2>
+<hr>
+<div id="myDIV" class="head">
+    <h3>جدول برنامه ریزی من</h3>
+    <input type="text" placeholder="کارهای من">
+    <span onclick="newElement()" class="addBtn">افزودن</span>
+  </div>
+  
+  <ul id="myUL">
+    <li class="checked">مطالعه زیست شناسی</li>
+    <li>حل سوالات ریاضی</li>
+    <li>انجام تکلیف هنر</li>
+  </ul>
+  <br>
+  <hr>
+  <br>
+  <a class="link" href="#1">تقویت تمرکز</a>
+  <a class="link" href="#2">طرح سوال</a>
+  <a class="link" href="#3">تندخوانی</a>
+  <a class="link" href="#4">خواندن اجمالی</a>
+  <a class="link" href="#4">جدیت در مطالعه</a>
+  <a class="link" href="#4">استفاده از راهنما</a>
+
+  <br>
+  <br>
+  <hr>
+<div class="bio">
+    <div id="1"><h2>تقویت تمرکز</h2>
+        <p>
+          تمرکز حواس در هنگام مطالعه، کلید اصلی و اساسی درک و فهم مطالب است و کلید اساسی تمرکز حواس، استفاده از روش هایی است که باعث تقویت و پرورش مهارت های لازم برای این کار است. بنابراین، بدون تمرکز حواس، ممکن است درک و فهم مطلبی که فقط یک ساعت وقت لازم داشته باشد، ساعت ها وقت بگیرد؛ اما به خوبی فهمیده نشود و اثر مثبتی نداشته باشد. از این رو، کاربرد روش ها و فنونی که به خواننده کمک می کند تا به هنگام مطالعه، فعال باشد، تمرکز حواس را تقویت و مهارت فرد را در ایجاد تمرکز هنگام مطالعه، افزایش می دهد            <hr>
+        <div id="2"><h2>طرح سوال</h2>
+        <p>
+          طرح سؤال پیش از مطالعه دقیق، فرد را وادار می کند تا به طور فعالانه و با تمرکز، دقت کافی، انگیزه و علاقه، به مطالعه بپردازد. طرح سؤال هنگام مطالعه، یکی از روش هایی است که خواننده را فعال و به طور عمیق او را درگیر مطالعه می کند و سبب برانگیختن جدیت و تلاش وی به هنگام مطالعه می شود. فرد برای یافتن پاسخ سؤالات خود، بایستی تمرکز حواس خود را حفظ کند؛ زیرا در هنگام مطالعه، نمی توان بدون تمرکز، پاسخ سؤالات را پیدا کرد. بعد از خواندن مطلب و با طرح سؤال، توان میزان فراگیری خود را ارزشیابی کرده، به نقاط قوت و ضعف خود پی می برید. طرح سؤال، سبب ایجاد نظر انتقادی نسبت به مطالب در فرد می شود و موجب می شود تا خواننده در مطالعات بعدی، برای از بین بردن نقاط ضعف خود، با دقت و تمرکز بیشتری مطالعه کند          </p>
+          <hr>
+        </div>
+        <div id="3"><h2>تندخوانی</h2>
+        
+        <p>
+          تندخوانی، باعث توجه و تمرکز بیشتر و فهمیدن مطالب و در نتیجه، باعث یادگیری بهتر می شود. فکر و ذهن ما قادر است هزاران کلمه را در دقیقه از خود عبور دهد؛ ولی اگر سرعت مطالعه ما پایین باشد، ذهن، وقت اضافی می آورد و ناچار به این شاخه و آن شاخه می پرد و در نتیجه، حواس پرتی ایجاد می شود. مطالعه سریع یا تندخوانی، فرصت جولان به ذهن نمی دهد و سبب برقراری تمرکز حواس هنگام مطالعه می شود.
+          در زمینه تندخوانی، در پرسمان شماره ۴۷، راهنمایی های مفیدی را ارائه کرده ایم که می توانید به آن جا رجوع کنید       
+         </p>
+        <hr>
+        </div>
+        <div id="4"><h2>خواندن اجمالی</h2>
+        
+        
+        <p>
+          روش خواندن اجمالی، مبتنی است بر یک نمونه گیری سریع از نکات اساسی و صرف نظر کردن از جزئیات. در این روش، خواننده، مطالب را سازمان بندی می کند و آن گاه هدف از مطالعه خود را مشخص کرده، مقدار زمان مطالعه و میزان دشواری کتاب را تخمین می زند و سپس از طریق سؤال کردن، کنجکاوی، علاقه، دقت و تمرکز حواس خود را افزایش می دهد. برای اطلاع بیشتر از روش خواندن اجمالی به پرسمان شماره ۴۶ مراجعه کنید        </p>
+        <hr>
+        </div>
+        <div id="5"><h2>جدیت در مطالعه</h2>
+        
+        
+        <p>
+          به محض نشستن پشت میز مطالعه، خواندن را با جدیت شروع کنید؛ زیرا اگر سریع مشغول به کار مطالعه شوید، تمرکز حواس زود به دست می آید. این ضرب المثل را به یاد داشته باشید که «فتح ستارگانی که هزاران فرسنگ از ما دور هستند، با برداشتن قدم اول، امکان پذیر است». شک و تردید، موجب حواس پرتی یا ایجاد تخیلات واهی می شود. اجازه ندهید چیزی جز مطالعه، ذهن شما را مشغول کند. تصمیم بگیرید و مقدار زمانی را برای مطالعه مشخص کنید و خود را به مدت زمانی خاص محدود کنید. در این زمان، از مطالعه دست نکشید و به مطالعه ادامه دهید؛ اما زمان مطالعه را طولانی نکنید. بیهوده وسواس به خرج ندهید و بهانه تراشی نکنید. به خود تلقین کنید که فرد بااراده ای هستید و می توانید هر درسی را به خوبی یاد بگیرید. جدی باشید و با علاقه و انگیزه مطالعه کنید تا هنگام مطالعه، دچار حواس پرتی نشوید        </p>
+        <hr>
+        <div id="5"><h2>استفاده از راهنما</h2>
+        
+        
+          <p>
+            یکی از شیوه های برقراری تمرکز حواس، استفاده از یک راهنما، چون انگشت سبابه، مداد و… به هنگام مطالعه است؛ زیرا استفاده از یک راهنما هنگام مطالعه، باعث تمرکز حواس بهتر، عادت به روان خواندن، جلوگیری از برگشت برای دوباره خواندن و اتلاف وقت و جلوگیری از خستگی چشم و ذهن می شود          <hr>
+        </div>
+</div>
+<br><br>
+
+</div>
+<script>
+  const toggle = document.getElementById("toggle");
+  const theme = window.localStorage.getItem("theme");
+if (theme === "dark") document.body.classList.add("dark");
+
+toggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+  if (theme === "dark") {
+    window.localStorage.setItem("theme", "light");
+  } else window.localStorage.setItem("theme", "dark");
+});
+
+refresh.addEventListener("click", () => {
+  window.location.reload();
+});
+  </script>
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-400px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
+    <script>
+        // Create a "close" button and append it to each list item
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+
+// Click on a close button to hide the current list item
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+// Add a "checked" symbol when clicking on a list item
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
+
+// Create a new list item when clicking on the "Add" button
+function newElement() {
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("myInput").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  if (inputValue === '') {
+    alert("You must write something!");
+  } else {
+    document.getElementById("myUL").appendChild(li);
+  }
+  document.getElementById("myInput").value = "";
+
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  li.appendChild(span);
+
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+}
+    </script>
+</body>
+</html>
